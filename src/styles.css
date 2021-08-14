@@ -1,0 +1,53 @@
+:root {
+  --Tropical-Blue: #dbe4fa;
+  --Elm: #1e8f70;
+  --Tango: #ee7314;
+  --HopBush: #d65fb1;
+  --LasPalmas: #c0e110;
+  --SeaPink: #ebaba4;
+  --Illusion: #f596bd;
+  --Glacier: #84b8c3;
+  --Sail: #afc7f9;
+  --BitterSweet: #ff5960;
+}
+body {
+  margin: 0px;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: fixed;
+  background-size: 100% 100%;
+}
+
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: var(--Glacier);
+  width: 3rem;
+  height: 3rem;
+  margin: 0.2rem 0.2rem 0.4rem;
+  padding: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--BitterSweet);
+}
