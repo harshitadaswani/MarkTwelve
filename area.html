@@ -10,37 +10,14 @@
   <body>
     <section>
       <div class="back">
-        <a href="index.html"> < Go Back</a>
+        <img src="" class="back-btn" /><a href="index.html">Go Back</a>
       </div>
-      <form class="form-area">
+      <form>
         <h1>
-          Calculate Area
+          Enter the base and height in centimetres of the right angled
+          triangles:
         </h1>
-        <h2>Select an option according to the data you have for a triangle:</h2>
-        <div class="radio">
-          <label class="label area" for="base-height">
-            <input type="radio" value="base-height" name="area" id="Option1" />
-            If you have base and height length</label
-          >
-        </div>
-        <div class="radio">
-          <label class="label area" for="three-side">
-            <input type="radio" value="three-side" name="area" id="Option2" />
-            If you have length of 3 sides</label
-          >
-        </div>
-        <div class="radio">
-          <label class="label area" for="two-side">
-            <input type="radio" value="two-side" name="area" id="Option3" />
-            If you have length of 2 sides and included angle</label
-          >
-        </div>
-        <button class="back" id="continue">continue</button>
-      </form>
-    </section>
-
-    <section>
-      <div class="area-block">
+        <br />
         <div class="triangle">
           <label class="label heightH">height</label>
           <label class="label sideC">base</label>
@@ -51,139 +28,38 @@
           <div class="line line5"></div>
           <div class="line line6"></div>
         </div>
+        <br />
+        <label class="Tside"
+          >base =<input type="number" placeholder="base" class="side" />
+        </label>
+        <label class="Tside"
+          >height =<input type="number" placeholder="height" class="side" />
+        </label>
+        <br />
+        <button class="back">Submit</button>
+      </form>
+      <div class="output"></div>
+      <footer class="footer">
+        <div class="social-container">
+          <center>
+            <a href="https://github.com/harshitadaswani" class="social-icons">
+              <img src="imgs/GitHub-Mark-32px.png"
+            /></a>
 
-        <form class="AreaCalForm">
-          <label class="label"
-            >base=
-            <input
-              class="inputBox inputSide inputInOption1"
-              type="number"
-              min="0.0001"
-              step="0.00001"
-              required
-            />
-          </label>
+            <a
+              href="https://www.linkedin.com/in/harshitabdaswani/"
+              class="social-icons"
+            >
+              <img src="imgs/li.png"
+            /></a>
 
-          <label class="label"
-            >height=
-            <input
-              class="inputBox inputSide inputInOption1"
-              type="number"
-              min="0.0001"
-              step="0.00001"
-              required
-            />
-          </label>
-          <br />
-          <button class="back submit">Submit</button>
-        </form>
-        <div class="output">
-      </div>
+            <a href="https://twitter.com/harshi_daswani" class="social-icons">
+              <img src="imgs/twitter.png"
+            /></a>
+          </center>
+        </div>
+      </footer>
     </section>
-    <section>
-        <div class="area-block">
-            <div class="triangle">
-              <label class="label sideA">a</label>
-              <label class="label sideB">b</label>
-              <label class="label sideC">c</label>
-              <div class="line line1"></div>
-              <div class="line line2"></div>
-              <div class="line line3"></div>
-            </div>
-    
-            <form class="AreaCalForm">
-              <label class="label"
-                >a=
-                <input
-                  class="inputBox inputSide inputInOption2"
-                  type="number"
-                  min="0.0001"
-                  step="0.00001"
-                  required
-                />
-              </label>
-    
-              <label class="label"
-                >b=
-                <input
-                  class="inputBox inputSide inputInOption2"
-                  type="number"
-                  min="0.0001"
-                  step="0.00001"
-                  required
-                />
-              </label>
-    
-              <label class="label"
-                >c=
-                <input
-                  class="inputBox inputSide inputInOption2"
-                  type="number"
-                  min="0.0001"
-                  step="0.00001"
-                  required
-                />
-              </label>
-              <p class="label error">
-                Enter valid side lengths such that each side length should be less
-                than sum of other two sides
-              </p>
-              <button class="back submit">Submit</button>
-            </form>
-            <div class="output">
-          </div>
-    </section>
-    <section>
-        <div class="areaCalBlock">
-            <div class="triangle">
-              <label class="label angleA">A</label>
-              <label class="label sideB">b</label>
-              <label class="label sideC">c</label>
-              <div class="line line1"></div>
-              <div class="line line2"></div>
-              <div class="line line3"></div>
-            </div>
-    
-            <form class="AreaCalForm">
-              <label class="label"
-                >b=
-                <input
-                  class="inputBox inputSide inputInOption3"
-                  type="number"
-                  min="0.0001"
-                  step="0.00001"
-                  required
-                />
-              </label>
-    
-              <label class="label"
-                >c=
-                <input
-                  class="inputBox inputSide inputInOption3"
-                  type="number"
-                  min="0.0001"
-                  step="0.00001"
-                  required
-                />
-              </label>
-    
-              <label class="label"
-                >∠A(deg)=
-                <input
-                  class="inputBox inputSide inputInOption3"
-                  type="number"
-                  min="0.0001"
-                  step="0.00001"
-                  max="360"
-                  required
-                />
-              </label>
-              <br />
-              <button class="back submit">Submit</button>
-            </form>
-            <div class="output">
-            </div>
-          </div>
-    </section>
+    <script src="src/area.js" type="text/javascript"></script>
   </body>
 </html>
