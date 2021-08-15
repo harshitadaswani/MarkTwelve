@@ -210,3 +210,21 @@ section {
   position: relative;
   bottom: -100px;
 }
+.radio input {
+  padding: 0.5rem 0.5rem;
+  display: inline-block;
+}
+.radio {
+  padding: 0.5rem 1rem;
+  white-space: normal;
+}
+.radio label {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.ow {
+  background-color: var(--off-white);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
