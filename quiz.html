@@ -10,12 +10,12 @@
   <body>
     <section>
       <div class="back">
-        <img src="" class="back-btn" /><a href="index.html">Go Back</a>
+        <a href="index.html"> < Go Back </a>
       </div>
-      <form>
+      <form class="form-quiz">
         <h1>Triangle Quiz</h1>
         <br />
-        <div class="radio ow">
+        <div class="radio qa">
           <label class="label question"
             >1. If a triangle has angles 135<sup>0</sup>, 15<sup>0</sup>,
             30<sup>0</sup>. Is it an obtuse triangle?</label
@@ -44,7 +44,7 @@
           >
         </div>
 
-        <div class="radio ow">
+        <div class="radio qa">
           <label class="label question"
             >2. If a triangle has angles 115<sup>0</sup>, 25<sup>0</sup>,
             40<sup>0</sup>. Is it an acute triangle?</label
@@ -73,7 +73,7 @@
           >
         </div>
 
-        <div class="radio ow">
+        <div class="radio qa">
           <label class="label question"
             >3. If a triangle has angles 90<sup>0</sup>, 60<sup>0</sup>,
             30<sup>0</sup>. Is it a right angle triangle?</label
@@ -102,7 +102,7 @@
           >
         </div>
 
-        <div class="radio ow">
+        <div class="radio qa">
           <label class="label question"
             >4. A triangle has angles 60<sup>0</sup>, 60<sup>0</sup>,
             60<sup>0</sup>. Is it an equilateral triangle?</label
@@ -131,7 +131,7 @@
           >
         </div>
 
-        <div class="radio ow">
+        <div class="radio qa">
           <label class="label question"
             >5. If a triangle has angles 25<sup>0</sup>, 75<sup>0</sup>,
             80<sup>0</sup>. Is it an acute triangle?</label
@@ -159,7 +159,7 @@
             no</label
           >
         </div>
-        <div class="radio ow">
+        <div class="radio qa">
           <label class="label question"
             >6. If a triangle has 2 sides with equal lengths and 75<sup>0</sup>
             angle between them. What is the type of triangle?</label
@@ -199,7 +199,7 @@
           >
         </div>
 
-        <div class="radio ow">
+        <div class="radio qa">
           <label class="label question"
             >7. If a triangle has 2 angles of 75<sup>0</sup>. What is the
             measure of third angle in degree?</label
@@ -238,7 +238,7 @@
             15</label
           >
         </div>
-        <div class="radio ow">
+        <div class="radio qa">
           <label class="label question"
             >8. If a triangle has 2 sides with equal lengths and 60<sup>0</sup>
             angle between them. What is the type of triangle?</label
@@ -278,7 +278,7 @@
           >
         </div>
 
-        <div class="radio ow">
+        <div class="radio qa">
           <label class="label question"
             >9. The perimeter of an equilateral triangle is 15cm. What is the
             length of one side?</label
@@ -318,7 +318,7 @@
           >
         </div>
 
-        <div class="radio ow">
+        <div class="radio qa">
           <label class="label question"
             >10. If a triangle has sides of 2cm, 3cm, 4cm, what is the type of
             triangle?</label
@@ -358,9 +358,13 @@
           >
         </div>
         <br />
-        <button class="back">Submit</button>
+        <button class="back" id="#submit-quiz">Submit</button>
       </form>
       <div class="output"></div>
+      <label class="label">Score:</label>
+      <div style="display: inline;" class="showScore">
+        For each correct answer you will get 1 point
+      </div>
       <footer class="footer">
         <div class="social-container">
           <center>
@@ -382,6 +386,6 @@
         </div>
       </footer>
     </section>
-    <script src="src/angle.js" type="text/javascript"></script>
+    <script src="src/quiz.js" type="text/javascript"></script>
   </body>
 </html>
