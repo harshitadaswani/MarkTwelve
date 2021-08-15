@@ -10,18 +10,39 @@
   <body>
     <section>
       <div class="back">
-        <img src="" class="back-btn" /><a href="index.html">Go Back</a>
+        <a href="index.html"> < Go Back</a>
       </div>
-      <form>
+      <form class="form-angle">
         <h1>
           Enter the angles below and check whether the given angles form a
           triangle:
         </h1>
-        <input type="number" placeholder="angle1" class="angle" />
-        <input type="number" placeholder="angle2" class="angle" />
-        <input type="number" placeholder="angle3" class="angle" />
+        <input
+          required
+          type="number"
+          placeholder="angle1"
+          class="angle"
+          min="1"
+          max="180"
+        />
+        <input
+          required
+          type="number"
+          placeholder="angle2"
+          class="angle"
+          min="1"
+          max="180"
+        />
+        <input
+          required
+          type="number"
+          placeholder="angle3"
+          class="angle"
+          min="1"
+          max="180"
+        />
         <br />
-        <button class="back">Submit</button>
+        <button class="back submit">Submit</button>
       </form>
       <div class="output"></div>
       <footer class="footer">

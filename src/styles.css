@@ -33,6 +33,7 @@ h1 {
   text-align: center;
   justify-content: center;
   align-items: center;
+  margin: auto 2rem auto 5rem;
 }
 
 .box {
@@ -126,6 +127,13 @@ section {
   align-content: center;
   text-align: center;
   max-height: 0.8rem;
+}
+
+.output {
+  display: block;
+  font-size: 1.3rem;
+  background-color: var(--Elm);
+  color: var(--Tropical-Blue);
 }
 
 .side {
