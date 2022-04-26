@@ -271,3 +271,17 @@ section {
 .hidden {
   display: none;
 }
+
+.forgot-link:hover,
+.new-link:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: var(--action-color);
+}
+
+.input {
+  width: 100%;
+}

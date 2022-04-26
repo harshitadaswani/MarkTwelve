@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://harshita-crypto-ui.netlify.app/style.css"
+    />
+    <link rel="stylesheet" href="https://crypto-quiz.netlify.app/style.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/7fa15c8e24.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login | Triangleverse</title>
+  </head>
+  <body>
+    <div class="pagewrap">
+      <section class="p-m m-m flex flex-column flex-align-center">
+        <h1 class="m-s p-s action-color fw-bold">Login</h1>
+        <div
+          class="rules-container flex flex-column flex-align-center grey-bg p-l m-l br-m"
+        >
+          <form method="get" class="p-m m-m br-s">
+            <div class="flex flex-column">
+              <label for="Email" class="m-xs">Email Address:</label>
+              <input
+                type="email"
+                name="Email"
+                class="border-none outline-transparent p-s m-xs br-s input"
+                placeholder="abc@xyz.com"
+                id="Email"
+              />
+            </div>
+
+            <div class="flex flex-column">
+              <label for="Password" class="m-xs">Password:</label>
+              <input
+                type="password"
+                name="Password"
+                class="border-none outline-transparent p-s m-xs br-s input"
+                placeholder="******"
+                id="Password"
+              />
+            </div>
+
+            <div class="flex flex-row flex-space-between">
+              <div class="flex flex-center">
+                <input
+                  type="checkbox"
+                  name="Remember-me"
+                  class="br-xs p-xs m-xs txt-m"
+                />
+                <label for="Remember-me" class="fw-semibold" class="p-s m-s"
+                  >Remember me</label
+                >
+              </div>
+              <a
+                href="./forget-password.html"
+                class="forgot-link primary-color fw-semibold p-s m-s"
+                >Forgot your Password?</a
+              >
+            </div>
+
+            <div>
+              <input
+                type="button"
+                value="Login"
+                class="login-btn border-none outline-transparent br-s p-s m-xs primary-color fw-semibold txt-s"
+              />
+            </div>
+
+            <div class="txt-center new-link p-xs m-xs fw-bold">
+              <a href="./signup.html">
+                Create a new Account
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
