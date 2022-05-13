@@ -29,12 +29,12 @@
         <div
           class="rules-container flex flex-column flex-align-center grey-bg p-l m-l br-m"
         >
-          <form method="get" class="p-m m-m br-s">
+          <form method="post" class="p-m m-m br-s" action="db.php">
             <div class="flex flex-column">
               <label for="Email" class="m-xs">Email Address:</label>
               <input
                 type="email"
-                name="Email"
+                name="email"
                 class="border-none outline-transparent p-s m-xs br-s input"
                 placeholder="abc@xyz.com"
                 id="Email"
@@ -45,7 +45,7 @@
               <label for="Password" class="m-xs">Password:</label>
               <input
                 type="password"
-                name="Password"
+                name="password"
                 class="border-none outline-transparent p-s m-xs br-s input"
                 placeholder="******"
                 id="Password"
@@ -71,11 +71,12 @@
             </div>
 
             <div>
-              <input
-                type="button"
-                value="Login"
+              <button
+                type="submit"
                 class="login-btn border-none outline-transparent br-s p-s m-xs primary-color fw-semibold txt-s"
-              />
+              >
+                Submit
+              </button>
             </div>
 
             <div class="txt-center new-link p-xs m-xs fw-bold">
